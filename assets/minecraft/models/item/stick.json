@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/potpot"
+    },    
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/nutejug"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/bloomjug"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "item/1gram"  
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "item/masonjar"  
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "item/bong"   
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "item/gandalfpipe"   
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "item/joint"   
+    }           
+  ]
+}
