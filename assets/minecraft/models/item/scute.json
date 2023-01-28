@@ -1,14 +1,26 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/scute"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/scute"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/magnet"
     },
-    "overrides": [
-		{
-            "predicate": {
-                "custom_model_data": 17
-            },
-            "model": "item/magnet"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/shell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/shell"
+    }
+  ]
 }

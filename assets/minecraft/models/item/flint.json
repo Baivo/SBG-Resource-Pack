@@ -1,0 +1,86 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/flint"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 18001
+            },
+            "model": "magic:icons/spells/raise"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18002
+            },
+            "model": "magic:icons_disabled/spells/raise"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39001
+            },
+            "model": "custom/eggs/gronckleegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39010
+            },
+            "model": "custom/eggs/nadderegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39020
+            },
+            "model": "custom/eggs/nightfuryegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39030
+            },
+            "model": "custom/eggs/nightmareegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39040
+            },
+            "model": "custom/eggs/zipplebackegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39060
+            },
+            "model": "custom/eggs/skrillegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39070
+            },
+            "model": "custom/eggs/deathsongegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39080
+            },
+            "model": "custom/eggs/razorwhipegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39090
+            },
+            "model": "custom/eggs/scauldronegg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39100
+            },
+            "model": "custom/eggs/stormcutteregg"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39110
+            },
+            "model": "custom/eggs/changewingegg"
+        }
+    ]
+}

@@ -1,14 +1,38 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/stone_pickaxe"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/stone_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/copper_pickaxe"
     },
-    "overrides": [
-		{
-            "predicate": {
-                "custom_model_data": 17
-            },
-            "model": "item/copper_pickaxe"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/repair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/repair"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18003
+      },
+      "model": "magic:icons/spells/regenerate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18004
+      },
+      "model": "magic:icons_disabled/spells/regenerate"
+    }
+  ]
 }

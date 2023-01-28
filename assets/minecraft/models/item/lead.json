@@ -1,14 +1,26 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/lead"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/lead"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/golden_lead"
     },
-    "overrides": [
-		{
-            "predicate": {
-                "custom_model_data": 17
-            },
-            "model": "item/golden_lead"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/whip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/whip"
+    }
+  ]
 }

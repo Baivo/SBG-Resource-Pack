@@ -21,7 +21,7 @@
         "custom_model_data": 172
       },
       "model": "item/orange_backpack"
-    },    
+    },
     {
       "predicate": {
         "custom_model_data": 173
@@ -39,7 +39,7 @@
         "custom_model_data": 175
       },
       "model": "item/yellow_backpack"
-    },   
+    },
     {
       "predicate": {
         "custom_model_data": 176
@@ -57,7 +57,7 @@
         "custom_model_data": 178
       },
       "model": "item/gray_backpack"
-    },     
+    },
     {
       "predicate": {
         "custom_model_data": 179
@@ -92,19 +92,31 @@
       "predicate": {
         "custom_model_data": 1714
       },
-      "model": "item/green_backpack"  
-    },             
+      "model": "item/green_backpack"
+    },
     {
       "predicate": {
         "custom_model_data": 1715
       },
-      "model": "item/red_backpack"  
-    },    
+      "model": "item/red_backpack"
+    },
     {
       "predicate": {
         "custom_model_data": 1716
       },
-      "model": "item/black_backpack"  
-    }           
+      "model": "item/black_backpack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/force"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/force"
+    }
   ]
 }

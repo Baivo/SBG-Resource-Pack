@@ -1,14 +1,20 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "item/stone_hoe"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/stone_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/copper_hoe"
     },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 17
-            },
-            "model": "item/copper_hoe"
-        }
-    ]
+    {
+      "predicate": {
+        "custom_model_data": 39001
+      },
+      "model": "custom/weapons/nadderpike"
+    }
+  ]
 }
